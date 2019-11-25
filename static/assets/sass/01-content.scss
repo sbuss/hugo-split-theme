@@ -88,7 +88,7 @@ body.page-template-page-fullsingle-split {
     background-size:cover;
 
     @media (max-width: $bp-tablet ) {
-      height: 80vh;
+      height: 50vh;
       width: 100%;
     }
 
@@ -146,13 +146,21 @@ body.page-template-page-fullsingle-split {
   letter-spacing: -2px;
 
   h1 {
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
-    font-size: 16px;
-    line-height: 16px;
-    margin-bottom: 40px;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
     letter-spacing: 0.4px;
     color: $color-maverick;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 0.5em;
+    line-height: 1em;
+    letter-spacing: 0.4px;
+    color: $color-tagline;
   }
 
   .tagline {
