@@ -185,6 +185,11 @@ body.page-template-page-fullsingle-split {
     padding: 20px 0 0 0;
   }
 
+  div.row {
+    margin-top: 10pt !important;
+    margin-bottom: 10pt !important;
+  }
+
   p {
     color: $color-text;
     margin-bottom: 20px;
