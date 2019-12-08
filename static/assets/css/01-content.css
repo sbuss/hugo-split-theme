@@ -94,6 +94,11 @@ body.page-template-page-fullsingle-split {
     color: #848d96;
     margin-bottom: 20px;
     line-height: inherit; }
+  .split-bio p.card-text {
+    font-size: 12pt;
+    line-height: 14pt !important;
+    margin-top: 3pt;
+    padding: 0; }
   .split-bio a {
     color: #848d96;
     transition-duration: 0.5s;
@@ -120,45 +125,45 @@ body.page-template-page-fullsingle-split {
   .split-bio h5, .split-bio .h5,
   .split-bio h6, .split-bio .h6 {
     font-style: normal;
-    font-weight: normal;
-    color: inherit; }
+    font-weight: 400;
+    color: #CCCCCC;
+    line-height: 1em;
+    letter-spacing: 0.4px;
+    margin-top: 1em;
+    margin-bottom: 0.2em; }
   .split-bio h1 small, .split-bio .h1 small,
   .split-bio h2 small, .split-bio .h2 small,
   .split-bio h3 small, .split-bio .h3 small,
   .split-bio h4 small, .split-bio .h4 small,
   .split-bio h5 small, .split-bio .h5 small,
   .split-bio h6 small, .split-bio .h6 small {
-    line-height: 0; }
+    line-height: 0;
+    padding: 0 !important;
+    margin: 0 !important; }
   .split-bio h1, .split-bio .h1 {
     font-size: 1.5em;
-    line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px; }
+    line-height: inherit; }
   .split-bio h2, .split-bio .h2 {
     font-size: 1.25em;
-    line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px; }
+    line-height: inherit; }
   .split-bio h3, .split-bio .h3 {
     font-size: 1.1875em;
-    line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px; }
+    line-height: inherit; }
   .split-bio h4, .split-bio .h4 {
     font-size: 1.125em;
-    line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px; }
+    line-height: inherit; }
   .split-bio h5, .split-bio .h5 {
-    font-size: 1.0625em;
-    line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px; }
+    font-size: 0.8em;
+    line-height: 0.8em;
+    margin: 0;
+    color: #47bec7; }
+    @media (max-width: 500px) {
+      .split-bio h5, .split-bio .h5 {
+        margin-top: 1em; } }
   .split-bio h6, .split-bio .h6 {
-    font-size: 1em;
-    line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px; }
+    font-size: 0.4em;
+    line-height: 0.4em;
+    margin: 0 !important; }
   .split-bio ul,
   .split-bio ol,
   .split-bio dl {
