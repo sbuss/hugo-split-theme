@@ -90,6 +90,9 @@ body.page-template-page-fullsingle-split {
   @media (max-width: 800px) {
     .split-bio {
       padding: 20px 0 0 0; } }
+  .split-bio div.row {
+    margin-top: 10pt !important;
+    margin-bottom: 10pt !important; }
   .split-bio p {
     color: #848d96;
     margin-bottom: 20px;
