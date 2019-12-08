@@ -228,9 +228,14 @@ body.page-template-page-fullsingle-split {
   h5, .h5,
   h6, .h6 {
     font-style: normal;
-    font-weight: normal;
-    color: inherit;
+    font-weight: 400;
+    color: $color-tagline;
+    line-height: 1em;
+    letter-spacing: 0.4px;
+    margin-top: 1em;
+    margin-bottom: 0.2em;;
   }
+
 
   h1 small, .h1 small,
   h2 small, .h2 small,
@@ -239,48 +244,44 @@ body.page-template-page-fullsingle-split {
   h5 small, .h5 small,
   h6 small, .h6 small {
     line-height: 0;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
   h1, .h1 {
     font-size: 1.5em;
     line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px;
   }
 
   h2, .h2 {
     font-size: 1.25em;
     line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px;
   }
 
   h3, .h3 {
     font-size: 1.1875em;
     line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px;
   }
 
   h4, .h4 {
     font-size: 1.125em;
     line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px;
   }
 
   h5, .h5 {
-    font-size: 1.0625em;
-    line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px;
+    font-size: 0.8em;
+    line-height: 0.8em;;
+    margin: 0;
+    color: $color-maverick;
+    @media (max-width: $bp-mobile ) {
+      margin-top: 1em;
+    }
   }
 
   h6, .h6 {
-    font-size: 1em;
-    line-height: inherit;
-    margin-top: 0;
-    margin-bottom: 20px;
+    font-size: 0.4em;
+    line-height: 0.4em;;
+    margin: 0 !important;
   }
 
   ul,
